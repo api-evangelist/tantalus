@@ -1,7 +1,28 @@
 aid: tantalus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tantalus.png
 name: Tantalus
-description: Tantalus is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Tantalus Systems (TSX: GRID; OTCQX: TGMPF) is a technology company that
+  has served public power utilities and electric cooperatives for over 35 years, modernizing
+  electrical distribution grids through data-centric solutions. Its Tantalus Grid Modernization
+  Platform (TGMP) unifies intelligence across the distribution grid, connecting metering,
+  load and DER management, grid automation, and data management across both legacy and
+  modern infrastructure. Product lines include TRUConnect advanced metering infrastructure
+  (AMI), TRUFlex load and DER management, TRUGrid automation analytics, TRUSync grid
+  data management, and the TRUSense behind-the-meter gateway. Tantalus does not currently
+  publish a public developer API, OpenAPI specification, or developer portal; integration
+  with back-end utility software is delivered through standard data formats and handled
+  via its technical support and integration teams.'
 url: https://raw.githubusercontent.com/api-evangelist/tantalus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Smart Grid
+- Utilities
+- Advanced Metering Infrastructure
+- Grid Modernization
+- Energy
+- Distributed Energy Resources
+- Electric Utilities
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.tantalus.com/
+  url: https://www.tantalus.com/
+- type: Support
+  url: https://www.tantalus.com/technical-support/
+- type: PrivacyPolicy
+  url: https://www.tantalus.com/privacy-policy/
+- type: Blog
+  url: https://www.tantalus.com/about/newsroom/
+- type: DomainSecurity
+  url: security/tantalus-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
